@@ -51,7 +51,7 @@ const Step = ({ step, stepIdx }: StepProps) => {
       ) : step.status === "current" ? (
         <div className="">
           <span className="">
-            <span className="text-xs rounded-full border-2 m-3 p-2 border-indigo-600 text-indigo-600">
+            <span className="text-xs rounded-full border-2 m-3 p-2 border-indigo-00 text-indigo-600">
               {step.id}
             </span>
           </span>

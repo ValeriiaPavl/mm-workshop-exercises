@@ -35,7 +35,7 @@ export default function ExerciseTailwindTwo() {
           label="Exercise 2 - Solution"
           description="Uncomment the component in the exercise file to see the solution"
         />
-        {/* <ExerciseTailwindTwoSolution /> */}
+        <ExerciseTailwindTwoSolution />
       </div>
     </BaseLayout>
   );
