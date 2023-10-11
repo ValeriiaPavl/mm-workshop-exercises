@@ -22,9 +22,13 @@ export default function ExerciseTailwindTwoExercise() {
               />
             </div>
             <div className="flex flex-row gap-5">
-              <div className="flex flex-row justify-around gap-5 text-xs text-slate-200">
+              <div className="flex flex-row justify-around gap-5 text-xs">
                 {navigation.map((item) => (
-                  <Link key={item.name} href={item.href} className="">
+                  <Link
+                    key={item.name}
+                    href={item.href}
+                    className=" text-slate-200 hover:bg-gray-700 px-3 py-2 hover:text-white rounded-md"
+                  >
                     {item.name}
                   </Link>
                 ))}
