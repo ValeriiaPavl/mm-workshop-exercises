@@ -10,8 +10,8 @@ const navigation = [
 
 const NavBar = () => {
   return (
-    <nav className="flex flex-row justify-center">
-      <div className="flex flex-row justify-between p-8  items-center h-12 w-10/12">
+    <nav className="flex flex-row justify-around">
+      <div className="container relative flex flex-row mx-auto justify-between p-8 items-center h-12">
         <div className="flex flex-row justify-start gap-2 text-indigo-600">
           <img
             className="h-6 w-auto"
