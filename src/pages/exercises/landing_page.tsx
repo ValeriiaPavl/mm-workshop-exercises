@@ -55,7 +55,7 @@ const startappPage = () => {
                 customers worldwide
               </p>
             </div>
-            <div className="flex flex-wrap mt-10 w-full justify-center md:justify-around gap-5  lg:w-1/2 mx-auto">
+            <div className="flex flex-wrap mt-10 w-full justify-center md:justify-around gap-5 mx-auto">
               <div className="text-gray-400">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -166,6 +166,59 @@ const startappPage = () => {
                     </g>
                   </g>
                 </svg>
+              </div>
+            </div>
+          </div>
+          <div className="container flex items-center justify-center p-8 w-full mb-6 mx-auto mt-12">
+            <div className="flex flex-col items-center justify-center">
+              <p className="text-indigo-600 text-sm font-bold mt-3">
+                NEXTLY BENEFITS
+              </p>
+              <h2 className="text-3xl max-w-2xl tracking-tight leading-snug lg:leading-snug font-bold mb-4">
+                {" "}
+                Why should you use this landing page
+              </h2>
+              <p className="max-w-2xl text-xs text-center text-gray-500 lg:text-xl leading-normal">
+                Nextly is a free landing page & marketing website template for
+                startups and indie projects. Its built with Next.js &
+                TailwindCSS. And its completely open-source.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="flex mr-30">
+          <img src="https://nextly.web3templates.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbenefit-one.a3b4f792.png&w=640&q=75" />
+          <div className="flex flex-col justify-center">
+            <h2 className="text-3xl text-left max-w-2xl tracking-tight leading-snug lg:leading-snug font-bold mb-4">
+              Highlight your benefits
+            </h2>
+            <p className=" max-w-2xl text-xs text-gray-500 lg:text-xl leading-normal">
+              You can use this space to highlight your first benefit or a
+              feature of your product. It can also contain an image or
+              Illustration like in the example along with some bullet points.
+            </p>
+            <div className="flex flex-col mt-6 gap-6">
+              <div className="flex flex-col">
+                <h3 className="font-semibold text-md">
+                  Understand your customers
+                </h3>
+                <p className="text-gray-500">
+                  Then explain the first point breifly in one or two lines.
+                </p>
+              </div>
+              <div className="flex flex-col">
+                <h3 className="font-semibold text-md">Improve acquisition</h3>
+                <p className="text-gray-500">
+                  Here you can add the next benefit point.
+                </p>
+              </div>
+              <div className="flex flex-col">
+                <h3 className="font-semibold text-md">
+                  Drive customer retention
+                </h3>
+                <p className="text-gray-500">
+                  This will be your last bullet point in this section.
+                </p>
               </div>
             </div>
           </div>
