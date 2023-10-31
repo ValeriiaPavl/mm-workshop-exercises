@@ -1,5 +1,6 @@
 import ListItemWithSvg from "@/components/ListItemWithSVG";
 import NavBar from "@/components/NavBar";
+import Introduction from "@/components/PieceWithList";
 
 const startappPage = () => {
   return (
@@ -190,14 +191,13 @@ const startappPage = () => {
         <div className="flex mr-30">
           <img src="https://nextly.web3templates.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbenefit-one.a3b4f792.png&w=640&q=75" />
           <div className="flex flex-col justify-center">
-            <h2 className="text-3xl text-left max-w-2xl tracking-tight leading-snug lg:leading-snug font-bold mb-4">
-              Highlight your benefits
-            </h2>
-            <p className=" max-w-2xl text-md text-gray-500 lg:text-10xl leading-normal">
-              You can use this space to highlight your first benefit or a
-              feature of your product. It can also contain an image or
-              Illustration like in the example along with some bullet points.
-            </p>
+            <Introduction
+              header="Highlight your benefits"
+              text="You can use this space to highlight your first benefit or a
+feature of your product. It can also contain an image or
+              Illustration like in the example along with some bullet points."
+            ></Introduction>
+
             <div className="flex flex-col mt-6 gap-6">
               <ListItemWithSvg
                 text="Then explain the first point breifly in one or two lines."
