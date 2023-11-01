@@ -1,6 +1,7 @@
 import ListItemWithSvg from "@/components/ListItemWithSVG";
 import NavBar from "@/components/NavBar";
 import Introduction from "@/components/PieceWithList";
+import BlockWithVioletHeader from "@/components/BlockWithVioletHeader";
 
 const startappPage = () => {
   return (
@@ -171,22 +172,11 @@ const startappPage = () => {
               </div>
             </div>
           </div>
-          <div className="container flex items-center justify-center p-8 w-full mb-6 mx-auto mt-12">
-            <div className="flex flex-col items-center justify-center">
-              <p className="text-indigo-600 text-sm font-bold mt-3">
-                NEXTLY BENEFITS
-              </p>
-              <h2 className="text-3xl max-w-2xl tracking-tight leading-snug lg:leading-snug font-bold mb-4">
-                {" "}
-                Why should you use this landing page
-              </h2>
-              <p className="max-w-2xl text-md text-center text-gray-500 lg:text-xl leading-normal">
-                Nextly is a free landing page & marketing website template for
-                startups and indie projects. Its built with Next.js &
-                TailwindCSS. And its completely open-source.
-              </p>
-            </div>
-          </div>
+          <BlockWithVioletHeader
+            violetHeader="Nextly Benefits"
+            blackHeader=" Why should you use this landing page"
+            text="Nextly is a free landing page & marketing website template for startups and indie projects. Its built with Next.js & TailwindCSS. And its completely open-source."
+          />
         </div>
         <div className="container flex mx-auto">
           <div className="flex mr-30">
@@ -320,6 +310,11 @@ feature of your product. It can also contain an image or
             </div>
             <img src="https://nextly.web3templates.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbenefit-two.1d7648d5.png&w=640&q=75" />
           </div>
+          <BlockWithVioletHeader
+            violetHeader="Watch a video"
+            blackHeader="Learn how to fullfil your needs"
+            text="This section is to highlight a promo or demo video of your product. Analysts says a landing page with video has 3% more conversion rate. So, don't forget to add one. Just like this."
+          />
         </div>
       </main>
     </div>
